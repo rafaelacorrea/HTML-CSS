@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Listas Ordenadas</title>
+	</head>
+	<body>
+		<form action="envio.php" method="POST"> <!-- A tag form cria um formulário, o atributo action recebe a ação do formulário e o atributo method configura método http que gerencias as informações do formulário  -->
+			<input type="text" name="nome"> <!-- A tag input permite que o usuário insira informações -->
+			<br> <!-- inclui uma quebra de linha -->
+			<br>
+			<input type="checkbox" name="temcarro"> Eu tenho um carro <!-- o atributo type sinaliza como informação será inserida -->
+			<br> 
+			<br>
+			Data de nascimento <input type="date" name="aniversario"> <!-- atributo name identifica o nome do elemento no formulário -->
+			<br>
+			<br>
+			<input type="radio" name="sexo" value="masculino">Masculino <!-- o atributo value define o valor enviado-->
+			<input type="radio" name="sexo" value="feminino">Feminino
+			<input type="radio" name="sexo" value="outro">Outro
+			<br>
+			<br>
+			<textarea rows="4" cols="10"></textarea> <!-- adiciona uma área de texto, os atributos rows e cols determinam o tamanho dessa área -->
+			<br>
+			<br>
+			<input type="password" name="senha">
+			<br>
+			<br>
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
